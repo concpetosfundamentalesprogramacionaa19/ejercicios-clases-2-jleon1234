@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author JuanPablo
  */
-public class EjemploClaseDos {
+public class EjemploClase22 {
 
     /**
      * @param args the command line arguments
@@ -20,14 +20,22 @@ public class EjemploClaseDos {
         // TODO code application logic here
         String nombre;
         String apellido;
+        int edad;
+        String ciudad;
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("Ingrese sus nombre");
         nombre = entrada.nextLine();
         System.out.println("Ingrese sus apellido");
         apellido = entrada.nextLine();
+        System.out.println("Ingrese la edad");
+        edad = entrada.nextInt();
+        entrada.nextLine();
+        System.out.println("Ingrese la ciudad");
+        ciudad = entrada.nextLine();
         System.out.println("Su nombre es: " + nombre + '\n'+'\n'
-                + "  Su apellido es: " + apellido);
+                + "  Su apellido es: " + apellido + ", edad: " + edad + 
+                '\n' + "Ciudad:" + ciudad);
     }
     
 }
