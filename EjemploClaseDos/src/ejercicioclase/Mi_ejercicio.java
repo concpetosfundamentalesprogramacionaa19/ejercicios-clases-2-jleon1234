@@ -13,11 +13,15 @@ import java.util.Scanner;
  */
 public class Mi_ejercicio {
     public static void main(String[] args) {
-        String nombre, apellido,ciudad,pais;
-        int edad,nota1, nota2;
+        String nombre;
+        String apellido;
+        String ciudad;
+        String pais;
+        int edad;
+        int nota1;
+        int nota2;
         double promedio;
         Scanner entrada = new Scanner(System.in);
-        
         System.out.println("Ingrese sus nombre");
         nombre = entrada.nextLine();
         System.out.println("Ingrese sus apellidos");
@@ -34,6 +38,8 @@ public class Mi_ejercicio {
         System.out.println("Ingrese la segunda nota");
         nota2 = entrada.nextInt();
         promedio = (nota1+nota2)/2;
-        System.out.printf("Su nombre y apellidos: %s %s \nEdad: %s \nCiudad %s \nPais: %s \nNotas: %s %s \nPromedio: %s", nombre, apellido, edad, ciudad, pais, nota1, nota2, promedio);
+        System.out.printf("Su nombre y apellidos: %s %s \nEdad: %s \n"
+                + "Ciudad %s \nPais: %s \nNotas: %s %s \nPromedio: %s"
+                , nombre, apellido, edad, ciudad, pais, nota1, nota2, promedio);
     }
 }
