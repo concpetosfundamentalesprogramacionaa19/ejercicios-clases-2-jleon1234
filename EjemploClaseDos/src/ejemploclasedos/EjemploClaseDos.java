@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemploclaseuno;
+package ejemploclasedos;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author JuanPablo
  */
-public class EjemploClaseUno {
+public class EjemploClaseDos {
 
     /**
      * @param args the command line arguments
